@@ -20,24 +20,24 @@
     "rgba"
   ],
   "dependencies": {
-    "blob-to-buffer": "1.2.6",
-    "file-type": "11.0.0",
-    "canvas": "2.9.0",
-    "crc-32": "1.2.0",
-    "exifreader": "4.9.1",
-    "image-q": "1.1.1",
+    "blob-to-buffer": "1.2.9",
+    "file-type": "18.5.0",
+    "canvas": "2.11.2",
+    "crc-32": "1.2.2",
+    "exifreader": "4.12.1",
+    "image-q": "4.0.0",
     "image-size": "1.0.2",
-    "omggif": "1.0.8",
+    "omggif": "1.0.10",
     "pixl-class": "^1.0.3",
-    "pixl-perf": "^1.0.0",
-    "pixl-tools": "^1.0.0",
-	"pixl-request": "^2.0.0",
-	"pixl-cli": "^1.0.0",
-	"webp-wasm": "^1.0.2"
+    "pixl-perf": "^1.0.9",
+    "pixl-tools": "^1.0.33",
+	"pixl-request": "^2.0.2",
+	"pixl-cli": "^1.0.14",
+	"webp-wasm": "^1.0.3"
   },
   "devDependencies": {
-    "browser-process-hrtime": "0.1.2",
-    "browserify": "16.5.1"
+    "browser-process-hrtime": "1.0.0",
+    "browserify": "17.0.0"
   },
   "browser": {
     "./lib/node/create.js": "./lib/browser/create.js",
